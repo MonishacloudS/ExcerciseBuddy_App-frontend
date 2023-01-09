@@ -1,5 +1,5 @@
 {
-  "proxy": "https://excercise-buddy-app-backend-xsg2.vercel.app/",
+  
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
