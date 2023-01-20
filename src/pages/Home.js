@@ -11,7 +11,7 @@ const Home = () => {
 
     useEffect(() => {
         const fetchWorkouts = async () => {
-          const response = await fetch('https://excercise-buddy-app-backend-xsg2.vercel.app/api/workouts/')
+          const response = await fetch('https://excercise-buddy-app-backend.vercel.app/api/workouts')
           const json = await response.json()
     
           if (response.ok) {
